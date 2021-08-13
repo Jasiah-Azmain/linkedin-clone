@@ -1,0 +1,28 @@
+.inputOption {
+  display: flex;
+  color: gray;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 13px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.inputOption:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.inputOption__title {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.inputOption > h4 {
+  margin-top: 4px;
+  margin-left: 10px;
+}
